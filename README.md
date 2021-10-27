@@ -2,7 +2,7 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)  
 
-Notes on creating a VMWare Template
+Scrach space for temporary instructions. Content on this page will change as I transition the content to a "formal" document.
 
 First set the networking parameters for the template VM.  This can be done via the System Tools GUI or from the command line.
 ```
