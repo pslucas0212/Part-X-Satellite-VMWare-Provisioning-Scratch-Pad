@@ -16,7 +16,7 @@ We will need to install the invntory plug-in on Satellite and we will also enabl
 --foreman-proxy-plugin-remote-execution-ssh-install-key true
 ```
 
-From the Satellite console we restart the inventory upload process.  From the left hand navigation bar click Confgure -> Inventory Upload.
+From the Satellite console we set up the inventory upload process.  From the left hand navigation bar click Confgure -> Inventory Upload.
 
 ![Configure -> Inventory Upload](/images/sat70.png)
 
@@ -28,11 +28,21 @@ Click on the view the job in progress link from the pop-up to watch that the job
 
 ![Red Hat Inventory Page](/images/sat71.png)
 
-Click on the > on the Operations Department line to expand the view, and the click the blue Restart button.  Blue Restart button will be grayed out.  When the Restart process is finished, click Uploading icon.
+Click on the > on the Operations Department line to expand the view, and the click the blue Restart button.  Blue Restart button will be grayed out.  When the Restart process is finished, click the Uploading icon.
 
-Notice the Settings options in the upper right corner of the Red Hat Inventory screen.  Click the ? symbol to get more information on each setting and chose the settings that best meet your organizations requirements.  For this tutorial we will only chose Automatic inventory upload setting to be set to on.  
+![Red Hat Inventory Page - Refresh - Upload](/images/sat72.png)
 
-![Red Hat Inventory Page](/images/sat71.png)
+Now you will see that the Generating and Uploading statuses have check marks.  Also, notice the Settings options in the upper right corner of the Red Hat Inventory screen.  Click the ? symbol to get more information on each setting and chose the settings that best meet your organizations requirements.  For this tutorial we will only chose Automatic inventory upload setting to be set to on.  
+
+![Statuses Checked](/images/sat73.png)
+
+If you have any issues, you can often get additional information from the Job status.  On left hand navigation bar, chose Dashboard -> Jobs.
+
+![Dashboard -> Jobs](/images/sat74.png)
+
+On the Jobs Invocation page, click the link to the particular job for more detail.
+
+![Job Invocation Page](/sat/images/sat75.png)
 
 We enabled host registration to Insights in the cloud-init template.  No other action is needed for this step.
 
