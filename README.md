@@ -70,7 +70,16 @@ On the settings page click the RH Cloud tab and on that tab page, click the penc
 
 ![Edit Red Hat Cloud Token](/images/sat80.png)
 
+In the Update value for Red Hat Cloud token setting dialog box, paste in the token you copied from the Red Hat customer portal page and click the blue Submit button.
 
+![Update value for Red Hat Cloud token](/images/sat81.png)
 
+On the left hand navigation bar choose Configure -> Insights.
+
+![Configure -> Insighs](/images/sat82.png)
+
+On the Red Hat Insights page, let's change the Settings | Synchronize Automaticall to On and then click the Start recommendations sync to start the first synchronization.  On this page we will see RHEL VM hostnames and recommended remediations.  
+
+![Red Hat Insights Page]{/images/sat83.png)
 
 
