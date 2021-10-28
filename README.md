@@ -6,6 +6,8 @@
 
 ## Enabling Cloud Connector on Satellite for Insights Remote Remediation
 
+??? Blah, blah, why are we doing this...  to automatically remediate RHEL via Insights.
+
 Preparing Satellite to upload host inventory
 
 We will need to install the invntory plug-in on Satellite and we will also enable users to run commands over SSH as root on Satellite if needed.  Watch for the Success! message when the task is completed.
@@ -45,6 +47,30 @@ On the Jobs Invocation page, click the link to the particular job for more detai
 ![Job Invocation Page](/sat/images/sat75.png)
 
 We enabled host registration to Insights in the cloud-init template.  No other action is needed for this step.
+
+To finish setting up ??? automatic RHEL remediation, we need to enable Insights...
+
+First login to your Red Hat customer portal and click the Subscriptions tab.
+
+![RH Portal Subscriptions Tab](/images/sat76.png)
+
+On your Red Hat customer portal page, click the Manage drop down list and chose RHSM API Token.
+
+![RH Portal -> Manage -> RHSM API Token](/inages/sat77.png)
+
+On the Red Hat API Tokens screen clock the blue GENERATE TOKEN button and on the next page clock the click the copy button.
+
+![RHSM API Tokens - GENERATE TOKEN](/images/sat78.png)
+
+Return to the Red Hat Satellite console and on the left hand navigation bar choose Administer -> Settings
+
+![Administer -> Settings](/images/sat79.png)
+
+On the settings page click the RH Cloud tab and on that tab page, click the pencil on the Red Hat Cloud Token line.
+
+![Edit Red Hat Cloud Token](/images/sat80.png)
+
+
 
 
 
