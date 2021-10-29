@@ -6,6 +6,8 @@
 
 ## Registering an Exsiting RHEL VM to Satellite
 
+For simplicity of the example we will use the Operations Derpartment Organization and moline operation along with ???
+
 In this tutorial we will add an existing RHEL VM to Satellite for content management.  
 
 If you don't already have an operating system defined in the host section we will need to do that first.  On the left side navibation bar chose Hosts -> Operating Systems.
