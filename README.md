@@ -6,7 +6,7 @@
 
 ## Registering an Exsiting RHEL VM to Satellite
 
-For simplicity of the example we will use the Operations Derpartment Organization and moline operation along with ???
+For simplicity of the example we will use the Operations Derpartment Organization and moline operation along with 
 
 In this tutorial we will add an existing RHEL VM to Satellite for content management.  
 
